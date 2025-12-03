@@ -37,3 +37,12 @@ p {
     border-bottom-right-radius: 5px;
 }
 
+ul {
+    list-style-type: " - ";
+}
+
+.pAndImg>img {
+    float: right;
+    width: 300px;
+}
+
