@@ -1,6 +1,5 @@
 #T1 {
     display: flex;
-    border: 2px solid lightgray;
     justify-content: space-around;
 }
 
@@ -11,12 +10,30 @@
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 75px;
 }
 
-#T2 {
-    display: flex;
+h1 {
+    text-align: center;
+}
+
+h2 {
     border: 2px solid lightgray;
-    justify-content: center;
+    padding: 10px;
+    margin: 20px 10px 0px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.pAndImg {
+    margin: 0px 10px 0px 10px;
+    border: 2px solid lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
