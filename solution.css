@@ -1,0 +1,22 @@
+#T1 {
+    display: flex;
+    border: 2px solid lightgray;
+    justify-content: space-around;
+}
+
+#T1>img {
+    width: 125px;
+    height: 59px;
+    align-self: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#T2 {
+    display: flex;
+    border: 2px solid lightgray;
+    justify-content: center;
+}
+
