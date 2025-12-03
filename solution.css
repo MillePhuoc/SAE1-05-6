@@ -1,6 +1,5 @@
 #T1 {
     display: flex;
-    border: 2px solid lightgray;
     justify-content: space-around;
 }
 
@@ -14,10 +13,8 @@ h1 {
     font-size: 75px;
 }
 
-#T2 {
-    display: flex;
-    border: 2px solid lightgray;
-    justify-content: center;
+h1 {
+    text-align: center;
 }
 
 h2 {
