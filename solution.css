@@ -20,3 +20,17 @@ h1 {
     justify-content: center;
 }
 
+h2 {
+    border: 2px solid lightgray;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.pAndImg {
+    border: 2px solid lightgray;
+}
+
