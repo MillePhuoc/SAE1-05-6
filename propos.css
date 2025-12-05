@@ -1,0 +1,21 @@
+img {
+    width: 50px;
+    margin: 0 0 0 0;
+}
+
+.tableauP {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.tableauP > img{
+    width: 200px;
+}
+
+header section{
+    display: flex;
+    flex-direction: row;
+}
+header section image{
+        width: 50px;
+
+}
