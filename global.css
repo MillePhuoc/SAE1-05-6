@@ -1,0 +1,11 @@
+body {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    color: var(--color-font-text);
+}
+:root {
+  --color-big-font-text: #200a58;
+  --color-background: #efefef;
+  --color-red-degrade: #e41a38;
+  --color-blue-degrade: #6133a0;
+  --color-font-text: #333333;
+}

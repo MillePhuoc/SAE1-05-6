@@ -8,14 +8,17 @@ img {
     grid-template-columns: auto auto auto auto;
 }
 .tableauP > img{
-    width: 200px;
+    width: 100px;
 }
 
 header section{
     display: flex;
     flex-direction: row;
 }
-header section image{
-        width: 50px;
-
+header section img{
+        width: 160px;
+}
+header section h1 {
+    margin-right: 100px;
+    font-weight: bold;
 }
