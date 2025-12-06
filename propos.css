@@ -1,20 +1,12 @@
+
 img {
     width: 50px;
     margin: 0 0 0 0;
 }
-
-.tableauP {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 50px;
-    justify-content: center;
+body > section { 
+    margin-left: 60px;
+    margin-right: 60px;
 }
-.tableauP > img{
-    width: 100px;
-    margin: 20px;
-
-}
-
 header section{
     display: flex;
     flex-direction: row;
@@ -40,6 +32,7 @@ header section h1 {
 
 .histoire ul li div{
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 .histoire div p {
@@ -48,17 +41,53 @@ header section h1 {
 }
 .histoire img {
     padding: 0; 
-    width: 50%;
+    width: 672px;
 }
 
-.histoire h2 {
+.histoire h3 {
     margin-top: 0;
     margin-right: 10px;
     margin-bottom: 0px;
 }
-body > section { 
-    margin-left: 60px;
-    margin-right: 60px;
+
+.actu div {
+    display: flex;
+    gap: 50px;
 }
 
+.fiche{
+    display: flex;
+}
+
+.gras li{
+    justify-content: right;
+    font-weight: bold;
+}
+
+.gras{
+    justify-content: right;
+}
+
+.actu ul {
+    list-style: none;
+}
+
+
+.tableauP {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 50px;
+    justify-content: center;
+}
+.tableauP > img{
+    width: 100px;
+    margin: 20px;
+
+}
+.tableauP > :nth-last-child(2) {
+  grid-column: 2 / 3;
+}
+.tableauP > :nth-last-child(1) {
+  grid-column: 3 / 4; 
+}
 
