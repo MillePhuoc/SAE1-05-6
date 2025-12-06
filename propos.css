@@ -6,19 +6,59 @@ img {
 .tableauP {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    justify-content: center;
 }
 .tableauP > img{
     width: 100px;
+    margin: 20px;
+
 }
 
 header section{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-header section img{
-        width: 160px;
+header section img {
+    width: 120px;
+    margin-right: 100px;
+    padding: 20px;
 }
 header section h1 {
-    margin-right: 100px;
     font-weight: bold;
+    font-size: 60px;
+    margin: 20px 0px 20px 60px;
 }
+
+.histoire {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.histoire ul li div{
+    display: flex;
+}
+
+.histoire div p {
+    margin: 0 auto;
+    width: fit-content;
+}
+.histoire img {
+    padding: 0; 
+    width: 50%;
+}
+
+.histoire h2 {
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+body > section { 
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
