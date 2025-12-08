@@ -90,9 +90,10 @@ h3 {
     gap: 50px;
     justify-content: center;
 }
-.tableauP > img{
-    width: 100px;
+.logo {
+    width: 200px;
     margin: 20px;
+    padding: 0;
 
 }
 .tableauP > :nth-last-child(2) {
