@@ -36,6 +36,7 @@ h3 {
     flex-direction: row;
     gap: 50px;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 .histoire ul li div{
@@ -58,9 +59,13 @@ h3 {
     margin-bottom: 0px;
 }
 
+.actu {
+    margin-bottom: 50px;
+
+}
 .actu > div {
     display: flex;
-    gap: 50px;
+    gap: 150px;
 }
 
 .actu img {
