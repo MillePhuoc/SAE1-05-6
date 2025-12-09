@@ -14,18 +14,18 @@ header h1 {
     margin: 20px 0px 20px 60px;
 }
 
-section ol li{
-    display: flex;
-    gap : 100px;
+body > section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
 }
-section ol li div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-}
-section ol li p, h3{
-    width: auto;
+
+section > div {
+    font-size: 20px;
+    text-align: center;
 }
 
 h2 {
