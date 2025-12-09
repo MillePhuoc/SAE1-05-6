@@ -4,10 +4,12 @@ form{display: flex;
     background-color: rgb(199, 199, 199);
     height: auto;
     justify-content: space-between;
+    gap: 15px;
 }
 
-div.first{display: grid;
-    grid-template-columns: auto auto;}
+section.first{display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;}
 
 button{background-color: rgb(212, 228, 255);
     border-radius: 35px;
