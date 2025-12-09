@@ -6,17 +6,17 @@ body > section {
     margin-left: 60px;
     margin-right: 60px;
 }
-header section{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-header section img {
+header img {
     width: 120px;
     margin-right: 100px;
     padding: 20px;
 }
-header section h1 {
+header h1 {
     font-weight: bold;
     font-size: 60px;
     margin: 20px 0px 20px 60px;

@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img {
+    width: 120px;
+    margin-right: 100px;
+    padding: 20px;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin: 20px 0px 20px 60px;
+}
+
+section ol li{
+    display: flex;
+    justify-content: space-evenly;
+    gap : 100px;
+}
+section ol li div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section ol li p, h3{
+    width: 25%;
+}
+
+img {
+    padding: 0;
+    margin: 20px;
+}
+
+body > section {
+    margin-left: 60px;
+    margin-right: 60px;
+}
