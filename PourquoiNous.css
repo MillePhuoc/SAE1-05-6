@@ -16,17 +16,28 @@ header h1 {
 
 section ol li{
     display: flex;
-    justify-content: space-evenly;
     gap : 100px;
 }
 section ol li div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
 }
 section ol li p, h3{
-    width: 25%;
+    width: auto;
 }
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0px 20px 0px;
+}
+
+ol {
+    padding-left: 0 ;
+}
+
 
 img {
     padding: 0;
