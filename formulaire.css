@@ -9,7 +9,13 @@ form{display: flex;
 
 section.first{display: grid;
     grid-template-columns: auto auto;
-    column-gap: 50px;}
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+div{display: grid;
+    grid-template-columns: auto;
+}
 
 button{background-color: rgb(212, 228, 255);
     border-radius: 35px;

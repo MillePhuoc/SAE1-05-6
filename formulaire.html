@@ -7,12 +7,28 @@
     <title>Formulaire</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="formulaire.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
 </head>
 
 <body>
-    <nav>
+    <nav class="navigation-bar">
+        <ul class="nav-pages">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="ecologie.html">Engagement<br>environnemental</a></li>
+            <li><a href="formulaire.html">Nous rejoindre</a></li>
+        </ul>
 
+        <ul class="nav-icons">
+            <li><a href="#"><span class="icon-social-facebook"></span></a></li>
+            <li><a href="#"><span class="icon-social-youtube"></span></a></li>
+            <li><a href="#"><span class="icon-social-twitter"></span></a></li>
+            <li><a href="#"><span class="icon-social-linkedin"></span></a></li>
+        </ul>
     </nav>
+
     <form action="post">
         <section class="first">
             <div>
@@ -33,19 +49,22 @@
             </div>
         </section>
 
-        
-        <label for="CV">CV*</label>
-        <input type="file" name="CV" id="CV">
-      
-        <label for="LM">Lettre de Motivation*</label>
-        <input type="file" name="LM" id="LM">
-   
-        <label for="Desc">Description*</label>
-        <textarea name="Desc" id="Desc"></textarea>
-     
-         <input type="checkbox" name="CD"> J'ai lu et déclare accepter les <a href="">codition d'utilisation</a>*
-
-        <div class="field">
+        <div>
+            <label for="CV">CV*</label>
+            <input type="file" name="CV" id="CV">
+        </div>
+        <div>
+            <label for="LM">Lettre de Motivation*</label>
+            <input type="file" name="LM" id="LM">
+        </div>
+        <div>
+            <label for="Desc">Description*</label>
+            <textarea name="Desc" id="Desc"></textarea>
+        </div>
+        <div class="condition">
+            <input type="checkbox" name="CD"> J'ai lu et déclare accepter les <a href="">codition d'utilisation</a>*
+        </div>
+        <div>
             <button>S'inscrire</button>
         </div>
     </form>
