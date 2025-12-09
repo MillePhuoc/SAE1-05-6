@@ -48,7 +48,20 @@ body {
     font-size: 33px;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img {
+    width: 120px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
+    font-weight: bold;
+    margin: 20px 0px 20px 60px
 }
