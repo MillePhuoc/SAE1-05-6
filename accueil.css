@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.les-secteurs {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.les-secteurs button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.secteurs {
+    margin-top: 100px;
+    border: solid 2px black;
+    padding: 10px 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image-secteur {
+    width: 400px;
+    height: auto;
+}
+
+.affichage-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    min-height: 500px;
+}
+
+#text-secteur {
+    width: 700px;
+}
+
+.Partenaires {
+    margin-top: 50px;
+}
