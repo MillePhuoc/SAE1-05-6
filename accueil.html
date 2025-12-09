@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonSite</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+</head>
+
+<body>
+    <nav class="navigation-bar">
+        <ul class="nav-pages">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="propos.html">A propos</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="environnement.html">Engagement<br>environnemental</a></li>
+            <li><a href="rejoindre.html">Nous rejoindre</a></li>
+        </ul>
+
+        <ul class="nav-icons">
+            <li><a href="#"><span class="icon-social-facebook"></span></a></li>
+            <li><a href="#"><span class="icon-social-youtube"></span></a></li>
+            <li><a href="#"><span class="icon-social-twitter"></span></a></li>
+            <li><a href="#"><span class="icon-social-linkedin"></span></a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Vous êtes unique et ça nous plaît !</h1>
+        <img src="CGI_logo.png" alt ="Logo de L'entreprise CGI">
+    </header>
+
+    <main>
+
+        <hr>
+
+        <div class="secteurs">
+            <h2>Secteurs</h2>
+            <nav class="les-secteurs">
+                <button onclick="AutreSecteur('Assurance')">Assurance</button>
+                <button onclick="AutreSecteur('Banque')"> Banque</button>
+                <button onclick="AutreSecteur('Médias')">Médias et Télécom</button>
+                <button onclick="AutreSecteur('Industrie')">Industrie</button>
+                <button onclick="AutreSecteur('Commerce')">Commerce</button>
+                <button onclick="AutreSecteur('Energie')">Energie</button>
+            </nav>
+        </div>
+        <div class="affichage-sections">
+            <img id="image-secteur" src="img/Assurance.jpeg" alt="Assurance">
+            <p id="text-secteur">Ponam in culpa idiota aliis pravitatis. Principium ponere culpam in se justum
+                praeceptum. Neque improperes et aliis qui non perfecte ipse docuit.
+                Quod Enchiridion Epictetus stoici scripsit. Rodrigo Abela et Technologiae apud Massachusetts instituta
+                Opera collectio. Ex anglicus latine translata sunt.
+                Quidam alii sunt, et non est in nostra potestate. Quae omnia in nostra sententia, pursuit, cupiditatem,
+                aversatio, ex quibus in Verbo, quicquid non suis actibus nostris. Non sunt in nostra potestate corpore
+                bona fama imperii, denique quod non sunt actus.</p>
+        </div>
+
+        <div class="Partenaires">
+            <h2>Nos Partenaires</h2>
+            <div id="Carrousel">
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="Liens-pages"></div>
+        <ul>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+
+        <dl>
+            <dt>Adresse</dt>
+            <dd>10-12 Cours Michelet, 92800 Puteaux</dd>
+
+            <dt>Téléphone</dt>
+            <dd>01 00 00 00 00</dd>
+
+            <dt>Email :</dt>
+            <dd>Contact@cgi.com</dd>
+
+            <dt>Horaires :</dt>
+            <dd>Lundi-Vendredi : 9h-18h</dd>
+        </dl>
+    </footer>
+    <script src="accueil.js"></script>
+</body>
+
+</html>
