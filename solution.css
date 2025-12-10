@@ -17,9 +17,16 @@ p {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 30px;
     justify-content: space-between;
+}
+
+summary {
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 ul {
@@ -32,5 +39,14 @@ ul {
     object-fit: cover;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+
+.nousRejoindre {
+    text-decoration: none;
+    color: purple;
+}
+
+.nousRejoindre:hover {
+    color: #633edf;
 }
 
