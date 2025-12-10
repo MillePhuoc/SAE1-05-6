@@ -2,6 +2,7 @@ body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: var(--color-font-text);
   margin: 0;
+  font-size: 20px;
 }
 
 :root {
@@ -67,4 +68,8 @@ h1 {
   text-align: center;
   font-weight: bold;
   margin: 20px 0px 20px 60px
+}
+
+hr {
+  color:#b03070;
 }
