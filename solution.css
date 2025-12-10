@@ -34,8 +34,8 @@ ul {
 }
 
 .pAndImg>img {
-    height: 270px;
-    width: 270px;
+    height: 280px;
+    width: 280px;
     object-fit: cover;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
