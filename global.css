@@ -19,6 +19,7 @@ p,ul {
   justify-content: space-around;
   background: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
   margin: 0px;
+  flex-wrap: wrap;
 }
 
 .navigation-bar a {
@@ -73,4 +74,20 @@ h1 {
 
 hr {
   color:#b03070;
+}
+
+@media screen and (max-width: 1050px) {
+  h1 {
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
+  }
+  .nav-icons span {
+    font-size: 25px;
+  }
+  .navigation-bar a {
+    font-size: 20px;
+  }
+  p,ul {
+    font-size: 15px;
+  }
 }
