@@ -81,6 +81,13 @@ hr {
     font-size: 40px;
     margin: 10px 0px 10px 0px;
   }
+  .navigation-bar {
+    display: flex;
+  }
+  .nav-pages {
+    flex-wrap: wrap;
+  }
+
   .nav-icons span {
     font-size: 25px;
   }

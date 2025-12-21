@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#labels {
+    display: flex;
+    justify-content: space-around;
+}
+
+#labels img {
+    width: auto;
+    height: 300px;
+}
+
+section:last-child {
+    display: flex;
+    flex-direction: column;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+section:last-child img {
+    width: 400px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+}
