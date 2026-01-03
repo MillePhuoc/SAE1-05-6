@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+details {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none; /* cache la petite flèche par défaut */
+}
+
+summary::after {
+    content: "➕";
+    float: right;
+    transition: transform 0.2s;
+}
+
+details[open] summary::after {
+    content: "➖";
+}
+
+details p {
+    margin-top: 10px;
+    color: #444;
+}

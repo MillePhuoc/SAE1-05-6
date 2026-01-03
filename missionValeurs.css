@@ -1,0 +1,33 @@
+body > section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+section > div {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0px 20px 60px;
+}
+
+ol {
+    padding-left: 0 ;
+}
+
+body > section {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.carre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

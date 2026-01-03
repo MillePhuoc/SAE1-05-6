@@ -1,0 +1,53 @@
+h2 {
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 20px 10px 0px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.pAndImg {
+    margin: 0px 10px 0px 10px;
+    border: 2px solid lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+summary {
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: " - ";
+}
+
+.pAndImg>img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nousRejoindre {
+    text-decoration: none;
+    color: purple;
+}
+
+.nousRejoindre:hover {
+    color: #633edf;
+}
+
