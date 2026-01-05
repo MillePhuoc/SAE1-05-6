@@ -1,38 +1,42 @@
+body  {
+    --color-radient: linear-gradient(270deg, #5236ab 0%, #e41937 100%)
+}
 
-body {
-    font-family: Arial, sans-serif;
+section {
     max-width: 700px;
     margin: 40px auto;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
 }
 
-details {
-    border-bottom: 1px solid #ccc;
-    padding: 15px 0;
-    cursor: pointer;
+
+details p {
+    margin-top: 16px;
 }
 
 summary {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     list-style: none;
+    position: relative;
 }
 
-summary::-webkit-details-marker {
-    display: none; /* cache la petite flèche par défaut */
-}
-
-summary::after {
-    content: "➕";
-    float: right;
-    transition: transform 0.2s;
-}
-
-details[open] summary::after {
-    content: "➖";
+details {
+    border-bottom: 2px solid; 
+    border-image: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
+    border-image-slice: 1;
+    padding: 15px;
 }
 
 details p {
-    margin-top: 10px;
-    color: #444;
+    max-height: 0;       
+    overflow: hidden;
+    transition: max-height 0.5s, margin-top 0.5s;
+    margin-top: 0;
+}
+details[open] p {
+    max-height: 500px;       
+    margin-top: 16px;
 }
