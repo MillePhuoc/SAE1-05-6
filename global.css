@@ -13,8 +13,10 @@ ul {
   --color-big-font-text: #200a58;
   --color-background: #efefef;
   --color-font-text: #333333;
+  --color-degrade: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
+  --color-purple: #5236ab;
+  --color-red: #e41937;
 }
-
 .navigation-bar {
   display: flex;
   justify-content: space-around;
