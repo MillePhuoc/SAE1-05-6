@@ -1,3 +1,9 @@
+:root {
+  --color-degrade: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
+  --color-purple: #5236ab;
+  --color-red: #e41937;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -78,7 +84,6 @@ h3 {
     flex-direction: column; 
     justify-content: space-between;
     align-items: center;
-    
     list-style: none;
     min-height: 150px; 
 }
@@ -88,13 +93,11 @@ h3 {
     text-align: center;
     padding-top: 10px;
     border-top: 1px solid #ccc;
-    animation: fadeIn 0.5s ease-in-out;
-    
 }
 
-.secteur-details .btn-toggle {
+.secteur-details .text-secteur {
     display: block;
-    background: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
+    background: var(--color-degrade);
     width: 80%;
     padding: 12px 16px;
     border-radius: 6px;
@@ -104,57 +107,17 @@ h3 {
     cursor: pointer;
 }
 
-.secteur-details .btn-toggle::after {
+.secteur-details .text-secteur::after {
     content: "En savoir plus";
 }
 
-.secteur-details[open] .btn-toggle::after {
+.secteur-details[open] .text-secteur::after {
     content: "Réduire";
 }
 
 
-.secteur-details[open] .btn-toggle {
+.secteur-details[open] .text-secteur {
     background: #333; 
-}
-
-
-.pour-plus {
-    margin-bottom: 30px;
-}
-
-.pour-plus a {
-    display: block;
-    text-decoration: none;
-    background: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
-    width: 80%;
-    padding: 12px 16px;
-    border-radius: 6px;
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pour-plus p {
-    display: block;
-    text-decoration: none;
-    background: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
-    width: 80%;
-    padding: 12px 16px;
-    border-radius: 6px;
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-}
-
-summary {
-    list-style: none;
 }
 
 .secteur-details summary {
@@ -163,19 +126,19 @@ summary {
     align-items: center;
     cursor: pointer;
     list-style: none;
+    
 }
 
 .secteur-details summary::-webkit-details-marker {
     display: none;
 }
 
-/* Texte du bouton */
-.secteur-details .btn-toggle::after {
+
+.secteur-details .text-secteur::after {
     content: "En savoir plus";
 }
 
-/* Quand c’est ouvert */
-.secteur-details[open] .btn-toggle::after {
+.secteur-details[open] .text-secteur::after {
     content: "Réduire";
 }
 
@@ -199,22 +162,32 @@ summary {
     border-radius: 12px 8px 12px 8px; 
 }
 
-
 .all-cartes {
-    width: 600%; 
+    width: 800%; 
     transition: margin-left 500ms ease-in-out;
     display: flex;
 }
 
 .carroussel .carte {
-    width: 16.666666%; 
+    width: 12.5%; 
     padding: 40px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lightgrey;
 }
 
+.lien-carte {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lien-carte:hover {
+    background-color: #e6e6e6;  
+    box-shadow: 0px 0px 10px 1px var(--color-purple);
+}
 
 .carte img {
     max-width: 200px; 
@@ -232,14 +205,15 @@ summary {
 #carte4:checked ~ #cartes .all-cartes { margin-left: -300%; }
 #carte5:checked ~ #cartes .all-cartes { margin-left: -400%; }
 #carte6:checked ~ #cartes .all-cartes { margin-left: -500%; }
-
+#carte7:checked ~ #cartes .all-cartes { margin-left: -600%; }
+#carte8:checked ~ #cartes .all-cartes { margin-left: -700%; }
 
 .carroussel #fleches {
     position: absolute;
     top: 50%; 
     width: 100%;
     transform: translateY(-50%);
-    transform: translateY(-50px);; 
+    transform: translateY(-50px);
 }
 
 #fleches label {
@@ -263,18 +237,22 @@ summary {
 #carte3:checked ~ #fleches label[for="carte4"],
 #carte4:checked ~ #fleches label[for="carte5"],
 #carte5:checked ~ #fleches label[for="carte6"],
-#carte6:checked ~ #fleches label[for="carte1"] {
+#carte6:checked ~ #fleches label[for="carte7"],
+#carte7:checked ~ #fleches label[for="carte8"],
+#carte8:checked ~ #fleches label[for="carte1"] {
     display: block;
     position: absolute;
     right: -50px
 }
 
-#carte1:checked ~ #fleches label[for="carte6"],
+#carte1:checked ~ #fleches label[for="carte8"],
 #carte2:checked ~ #fleches label[for="carte1"],
 #carte3:checked ~ #fleches label[for="carte2"],
 #carte4:checked ~ #fleches label[for="carte3"],
 #carte5:checked ~ #fleches label[for="carte4"],
-#carte6:checked ~ #fleches label[for="carte5"] {
+#carte6:checked ~ #fleches label[for="carte5"],
+#carte7:checked ~ #fleches label[for="carte6"],
+#carte8:checked ~ #fleches label[for="carte7"] {
     display: block;
     position: absolute;
     left: -50px;
@@ -297,7 +275,7 @@ summary {
 }
 
 .carroussel #bulles label:hover {
-    background: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
+    background: var(--color-degrade);
 }
 
 #carte1:checked ~ #bulles label[for="carte1"],
@@ -305,14 +283,16 @@ summary {
 #carte3:checked ~ #bulles label[for="carte3"],
 #carte4:checked ~ #bulles label[for="carte4"],
 #carte5:checked ~ #bulles label[for="carte5"],
-#carte6:checked ~ #bulles label[for="carte6"] {
-    background: #5236ab; 
+#carte6:checked ~ #bulles label[for="carte6"],
+#carte7:checked ~ #bulles label[for="carte7"],
+#carte8:checked ~ #bulles label[for="carte8"] {
+    background: var(--color-purple); 
     transform: scale(1.4);
 }
 
 
 footer {
-    background: linear-gradient(270deg,#5236ab 0%,#e41937 100%);
+    background: var(--color-degrade);
     color: white;
     display: grid;
     grid-template-columns: auto auto auto ;
@@ -343,29 +323,6 @@ footer ul {
     color: white;
 }
 
-.infos {
-    margin-right: 150px;
-}
-
-.infos dt {
-    margin-top: 20px;
-}
-
-dl {
-    font-weight: bold;
-}
-
-.rejoindre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.rejoindre p {
-    text-align: center;
-}
 
 
 
