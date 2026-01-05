@@ -1,0 +1,73 @@
+section {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    
+}
+main {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2 {
+    font-size: 45px;
+    display: grid;
+    text-align: center;
+}
+
+
+section p {
+    width: 45%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+img {
+    width: 45%;
+}
+
+.activite {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    margin: 60px;
+}
+
+.images {
+    position: relative;
+    min-width: 750px;
+    height: 500px;
+}
+
+.image {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: 2px solid #a3b8db;
+    background-color: #d9e6f9;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/* Position des images */
+.image1 {
+    top: 140px;   /* Avant 0px, maintenant un peu plus bas */
+    left: 0px;
+}
+
+.image2 {
+    top: 240px;  /* Avant 100px, maintenant décalée un peu plus bas */
+    left: 100px;
+}
