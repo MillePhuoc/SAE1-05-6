@@ -146,14 +146,6 @@ footer ul {
   color: white;
 }
 
-.infos {
-  margin-right: 150px;
-}
-
-.infos dt {
-  margin-top: 20px;
-}
-
 dl {
   font-weight: bold;
 }
@@ -163,7 +155,6 @@ dl {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .rejoindre p {
