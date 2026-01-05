@@ -43,3 +43,7 @@ span {
 img {
     width: 650px;
 }
+hr {
+    border-top: 2px solid;
+    border-image: linear-gradient(270deg, #5236ab 0%, #e41937 100%) 1;
+}
