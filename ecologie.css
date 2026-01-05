@@ -41,7 +41,7 @@ h2 {
     text-align: center;
 }
 
-p {
+main p {
     margin-left: 20px;
 }
 
@@ -58,6 +58,6 @@ ul {
     margin-top: 40px;
 }
 
-h3 {
+main h3 {
     margin-left: 20px;
 }
