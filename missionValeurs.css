@@ -8,10 +8,14 @@ body > section {
 }
 
 section > div {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 
+section > div p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 h2 {
     font-weight: bold;
     font-size: 40px;
@@ -30,4 +34,8 @@ body > section {
 .carre {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+span {
+    font-size: 80px;
 }
