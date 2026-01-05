@@ -42,13 +42,3 @@ ul {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-
-.nousRejoindre {
-    text-decoration: none;
-    color: purple;
-}
-
-.nousRejoindre:hover {
-    color: #633edf;
-}
-
