@@ -39,3 +39,7 @@ body > section {
 span {
     font-size: 80px;
 }
+
+img {
+    width: 650px;
+}
