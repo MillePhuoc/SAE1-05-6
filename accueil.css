@@ -315,7 +315,7 @@ footer {
     background: linear-gradient(270deg,#5236ab 0%,#e41937 100%);
     color: white;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     justify-content: space-around;
     margin-top: 150px;
     font-size: 18px;
@@ -323,15 +323,11 @@ footer {
     padding-top: 50px;
 }
 
-footer:first-child {
-      grid-column: span 2; /* occupe 2 colonnes */
-}
-
 footer ul {
     list-style-type: none;
 }
 
-footer ul a{
+.liens-pages a{
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -341,15 +337,10 @@ footer ul a{
     margin-top: auto;
     margin-bottom: auto;
     font-size: 24px;
-}
-.liens-pages ul  {
     display: grid;
     grid-template-columns: auto auto ;
     gap: 20px;
-}
-
-footer ul li {
-    margin-bottom: 20px;   
+    color: white;
 }
 
 .infos {
@@ -370,6 +361,10 @@ dl {
     justify-content: center;
     align-items: center;
 
+}
+
+.rejoindre p {
+    text-align: center;
 }
 
 
