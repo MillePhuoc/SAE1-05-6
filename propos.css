@@ -101,18 +101,9 @@ section h3 {
 
 }
 
-
-
-
 .mission {
    margin: 0;
 }
-
-
-
-
-
-
 
 .mission > section {
     display: grid;
@@ -163,3 +154,4 @@ section h3 {
     border-top: 2px solid;
     border-image: linear-gradient(270deg, #5236ab 0%, #e41937 100%) 1;
 }
+

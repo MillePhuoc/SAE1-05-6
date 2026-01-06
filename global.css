@@ -17,6 +17,7 @@ ul {
   --color-purple: #5236ab;
   --color-red: #e41937;
 }
+
 .navigation-bar {
   display: flex;
   justify-content: space-around;
@@ -170,4 +171,11 @@ dl {
   color: #200a58;
   font-size: 25px;
   text-align: center;
+}
+
+.nav-pages .positionsite {
+    color: #FFF6C7;
+    bottom: 15px;
+    box-shadow: 5px 5px 10px -3px rgb(0, 0, 0);
+    border-radius: 12px;
 }
