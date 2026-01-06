@@ -4,8 +4,7 @@ body {
   margin: 0;
 }
 
-p,
-ul {
+p,ul {
   font-size: 20px;
 }
 
@@ -174,8 +173,8 @@ dl {
 }
 
 .nav-pages .positionsite {
-    color: #FFF6C7;
-    bottom: 15px;
-    box-shadow: 5px 5px 10px -3px rgb(0, 0, 0);
-    border-radius: 12px;
+  color: #FFF6C7;
+  bottom: 15px;
+  box-shadow: 5px 5px 10px -3px rgb(0, 0, 0);
+  border-radius: 12px;
 }
