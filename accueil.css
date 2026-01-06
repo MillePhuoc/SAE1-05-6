@@ -176,6 +176,8 @@ main h2 {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    width: 720px;
+    height: 240px;
 }
 
 .lien-carte:hover {
@@ -194,7 +196,6 @@ main h2 {
 .carte img {
     max-width: 200px; 
     height: auto;
-    margin-top: -10px;
 }
 
 .carte h3 {
