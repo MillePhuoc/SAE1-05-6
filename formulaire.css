@@ -2,7 +2,6 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(199, 199, 199);
     height: 978px;
     width: 1960px;
     justify-content: space-between;
@@ -25,19 +24,30 @@ form div {
 }
 
 form button {
-    background-color: rgb(212, 228, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 35px;
-    border-color: rgb(89, 133, 255);
-    color: rgb(89, 133, 255);
+    border-color: rgb(177, 34, 206);
+    color: rgb(177, 34, 206);
     width: 300px;
     height: 50px;
     font-size: larger;
 }
 
+form button:hover {
+    background-color: rgb(255, 251, 217);
+    box-shadow: 0px 5px 20px -10px black;
+}
+
 .condition {
     display: block;
+    font-size: small;
 }
 
 i {
     color: red;
+}
+
+#Desc {
+    width: 500px;
+    height: 100px;
 }

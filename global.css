@@ -150,6 +150,9 @@ footer ul {
 
 dl {
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .rejoindre {
