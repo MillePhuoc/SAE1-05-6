@@ -15,6 +15,9 @@ h2 {
     font-size: 40px;
 }
 
+main h3 {
+    font-size: 32px;
+}
 
 main h2 {
     margin-top: 50px;
@@ -288,5 +291,5 @@ main h2 {
 #carte7:checked ~ #bulles label[for="carte7"],
 #carte8:checked ~ #bulles label[for="carte8"] {
     background: var(--color-purple); 
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
