@@ -102,6 +102,18 @@ section h3 {
 }
 
 
+
+
+.mission {
+   margin: 0;
+}
+
+
+
+
+
+
+
 .mission > section {
     display: grid;
     grid-template-columns: 1fr 1fr;
