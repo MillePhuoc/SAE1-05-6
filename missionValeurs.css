@@ -1,4 +1,4 @@
-body > section {
+.mission > section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -7,43 +7,43 @@ body > section {
     justify-items: center;
 }
 
-section > div {
+.mission > section > div {
     font-size: 24px;
     text-align: center;
 }
 
-section > div p {
+.mission > section > div p {
     padding-left: 50px;
     padding-right: 50px;
 }
-h2 {
+.mission > h2 {
     font-weight: bold;
     font-size: 40px;
     margin: 20px 0px 20px 60px;
 }
 
-ol {
+.mission > ol {
     padding-left: 0 ;
 }
 
-body > section {
+.mission > section {
     margin-left: 60px;
     margin-right: 60px;
 }
 
-.carre {
+.mission .carre {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-span {
+.mission span {
     font-size: 80px;
 }
 
-img {
+.mission img {
     width: 650px;
 }
-hr {
+.mission hr {
     border-top: 2px solid;
     border-image: linear-gradient(270deg, #5236ab 0%, #e41937 100%) 1;
 }

@@ -101,3 +101,65 @@ section h3 {
 
 }
 
+
+
+
+.mission {
+   margin: 0;
+}
+
+
+
+
+
+
+
+.mission > section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.mission > section > div {
+    font-size: 24px;
+    text-align: center;
+}
+
+.mission > section > div p {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mission > h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0px 20px 60px;
+}
+
+.mission > ol {
+    padding-left: 0 ;
+}
+
+.mission > section {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.mission .carre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mission span {
+    font-size: 80px;
+}
+
+.mission img {
+    width: 650px;
+}
+.mission hr {
+    border-top: 2px solid;
+    border-image: linear-gradient(270deg, #5236ab 0%, #e41937 100%) 1;
+}
