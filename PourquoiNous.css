@@ -119,3 +119,7 @@ hr {
     height: 100%;   
     object-fit: cover; 
 }
+
+.decouverte p{
+    width: fit-content;
+}
